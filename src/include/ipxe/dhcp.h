@@ -643,7 +643,7 @@ struct dhcphdr {
 
 /** Timeouts for sending DHCP packets */
 #define DHCP_MIN_TIMEOUT ( 1 * TICKS_PER_SEC )
-#define DHCP_MAX_TIMEOUT ( 10 * TICKS_PER_SEC )
+#define DHCP_MAX_TIMEOUT ( 120 * TICKS_PER_SEC )
 
 /** Maximum time that we will wait for ProxyDHCP responses */
 #define PROXYDHCP_MAX_TIMEOUT ( 2 * TICKS_PER_SEC )
